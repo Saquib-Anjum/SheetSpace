@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SheetSpace</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div class="page-actions-cont">
+        <img class="logo-img" src="logo.svg" alt="">
+        <div class="page-action">Home</div>
+        <div class="page-action">File</div>
+        <div class="page-action">Insert</div>
+        <div class="page-action">Layout</div>
+        <div class="page-action">Help</div>
+    </div>
+    <div class="cellProp-actions-cont">
+        <span class="material-symbols-outlined copy">
+            content_copy
+        </span>
+
+        <span class="cut material-symbols-outlined">
+            content_cut
+        </span>
+
+        <span class="paste material-symbols-outlined">
+            content_paste
+        </span>
+        <select class="font-family-prop">
+            <option value="monospace">Monospace</option>
+            <option value="sans-serif">Sans-serif</option>
+            <option value="fanticy">Fantasy</option>
+            <option value="cursive">Cursive</option>
+        </select>
+        <select name="" id="" class="font-size-prop">
+            <option value="14">14</option>
+            <option value="16">16</option>
+            <option value="18">18</option>
+            <option value="20">20</option>
+        </select>
+
+        <span class="material-symbols-outlined bold">
+            format_bold
+        </span>
+
+        <span class="material-symbols-outlined italic">
+            format_italic
+        </span>
+        <span class="material-symbols-outlined underline">
+            format_underlined
+        </span>
+
+        <span class="left material-symbols-outlined alignment">
+            format_align_left
+        </span>
+
+        <span class="center material-symbols-outlined alignment">
+            format_align_center
+        </span>
+
+        <span class="right material-symbols-outlined alignment">
+            format_align_right
+        </span>
+        <div class="color-prop">
+            <span class="material-symbols-outlined">
+                format_color_text
+            </span>
+            <input type="color" class="fontColor-prop">
+        </div>
+
+        <div class="color-prop">
+            <span class="material-symbols-outlined">
+                format_color_fill
+            </span>
+            <input type="color" class="BGcolor-prop">
+        </div>
+        <span class="download material-symbols-outlined">
+            cloud_download
+            </span>
+        <span class="upload material-symbols-outlined">
+            cloud_upload
+            </span>
+
+
+    </div>
+    <div class="formula-actions-cont">
+        <input type="text" class="address-bar" readonly>
+        <img width="25" height="25" src="https://img.icons8.com/ios/30/formula-fx.png" alt="formula-fx" />
+        <input type="text" class="formula-bar">
+
+
+
+    </div>
+    <div class="grid-cont">
+        <div class="top-left-dummy-box"></div>
+
+        <div class="address-col-cont"></div>
+        <div class="cells-cont">
+            <div class="address-row-cont"></div>
+        </div>
+    </div>
+    <div class="sheet-actions-cont">
+        <div class="sheet-add-icon">
+            <span class="sheet-add-btn material-symbols-outlined">
+                post_add
+            </span>
+        </div>
+
+        <div class="sheets-folder-cont">
+            
+        </div>
+    </div>
+
+
+    <script src="./grid.js"></script>
+    <script src="./cyclicPathTrace.js"></script>
+    <script src="./cycleValidation.js"></script>
+    <script src="./sheetHandling.js"></script>
+    <script src="./cellProperties.js"></script>  
+    <script src="./formula.js"></script>
+    <script src="./CopyCutPate.js"></script>
+    <script src="./opensave.js"></script>
+
+</body>
+</html>
