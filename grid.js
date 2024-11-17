@@ -34,7 +34,7 @@ for(let i=0;i<row;i++){
       //for cell identifiction
       cell.setAttribute("rid" ,i)
       cell.setAttribute("cid", j);
-    //   cell.setAttribute("spellingcheck" ,true)
+       cell.setAttribute("spellcheck", true);
      
     }
     cellsCont.appendChild(rowCont);
