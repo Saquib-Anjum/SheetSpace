@@ -8,10 +8,7 @@ Welcome to **SheetSpace**, an Excel-like web application built with the goal of 
 ![Project UI](https://github.com/Saquib-Anjum/SheetSpace/blob/main/assets/Screenshot%202024-11-17%20113610.png)
 
 ## Live Link
-
-[Click here to view the live project](https://sheet-space.vercel.app/)
-
-
+## [Click here to view the live project](https://sheet-space.vercel.app/)
 
 ---
 
