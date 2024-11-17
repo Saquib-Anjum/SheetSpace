@@ -5,13 +5,10 @@ Welcome to **SheetSpace**, an Excel-like web application built with the goal of 
 ---
 ## Screenshots
 
-![Project UI](https://via.placeholder.com/800x400.png?text=Project+UI+Screenshot)
+![Project UI](https://github.com/Saquib-Anjum/SheetSpace/blob/main/assets/Screenshot%202024-11-17%20113610.png)
 
 ## Live Link
-
-[Click here to view the live project](#)
-
-
+## [Click here to view the live project](https://sheet-space.vercel.app/)
 
 ---
 
